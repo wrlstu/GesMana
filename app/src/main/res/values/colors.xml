@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkGrey">#A9A9A9</color>
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="info">#38925E</color>
+    <color name="milk">#efeff7</color>
+    <color name="lightGrad">#8767f7</color>
+    <color name="lightGradTo">#9e56f3</color>
+    <color name="middle">#4e67f3</color>
+    <color name="middlePurple">#5e57f7</color>
+
+    /**Slide Menu*/
+    <color name="skyblue">#87CEEB</color><!--天蓝色 -->
+    <color name="transparent">#0000</color>
+</resources>

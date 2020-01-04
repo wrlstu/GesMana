@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/bg"
+    android:clickable="true"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/iv_leftIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_leftText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/iv_leftIcon"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+
+    <FrameLayout
+        android:id="@+id/rightLayout"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/iv_rightIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/righticon4"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/rightCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/rightSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_gravity="center"/>
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/rightSeekBar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_rightText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/rightLayout"
+        android:gravity="center" />
+</RelativeLayout>

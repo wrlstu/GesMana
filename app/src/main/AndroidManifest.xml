@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sixosix.gesmana">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".gestureApp.GestureAppActivity" />
+        <activity android:name=".gestureApp.AppGesture" />
+        <activity android:name=".gestureApp.AddGesture" />
+        <activity android:name=".gestureApp.AddApp" />
+        <activity android:name=".otherSetting.FloatingSettingActivity" />
+        <activity android:name=".otherSetting.IconActivity" />
+
+        <activity
+            android:name=".floatBall.RecogniseGesture"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/myTransparent" />
+
+        <service android:name=".floatBall.BallService" />
+
+
+        <activity android:name=".slideMenu.SetActivity" />
+        <activity android:name=".slideMenu.GestureHistoryActivity" />
+        <activity android:name=".slideMenu.UserCenterActivity" />
+        <activity android:name=".slideMenu.ShareActivity" />
+        <activity android:name=".slideMenu.BackupsActivity" />
+        <activity android:name=".slideMenu.AboutUsActivity" />
+        <activity android:name=".slideMenu.CheckUpdateActivity" />
+        <activity android:name=".hideApp.HideAppManager" />
+        <activity android:name=".hideApp.HideAppGesture" />
+        <activity android:name=".hideApp.HideActivity" />
+        <activity android:name=".hideApp.MyResetPatternActivity" />
+    </application>
+
+</manifest>

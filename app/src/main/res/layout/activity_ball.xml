@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_ball"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxHeight="80dp"
+    android:maxWidth="80dp">
+
+    <ImageView
+        android:id="@+id/iv_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/floating_ball"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/ball" />
+</LinearLayout>

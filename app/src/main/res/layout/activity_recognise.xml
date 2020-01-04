@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGrey"
+            android:text="@string/gesture_tip"
+            android:textAlignment="center" />
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gesture_recognise"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/lightGrey"
+            android:gestureStrokeType="multiple" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

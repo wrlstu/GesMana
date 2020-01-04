@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">GesMana</string>
+    <string name="floating_switch">开关</string>
+    <string name="floating_style">样式</string>
+    <string name="other_settings">其他设置</string>
+    <string name="size">大小</string>
+    <string name="alpha">透明度</string>
+    <string name="move">长按移动</string>
+    <string name="canStick">边缘吸附</string>
+    <string name="canBlur">自动虚化</string>
+    <string name="define_pattern">设置解锁图案</string>
+    <string name="pattern_visible">使图案可见</string>
+    <string name="pattern_visible_hint">将在绘制时显示图案</string>
+    <string name="clear_pattern">清除图案</string>
+    <string name="manager_apps">管理应用</string>
+    <string name="manager_apps_hint">添加/移除隐藏应用</string>
+    <string name="hide_app_gesture">手势设置</string>
+    <string name="app_gesture_hint">为应用设置打开手势</string>
+    <string name="define_password">设置密码</string>
+    <string name="define_password_hint">设置进入此页面的手势密码</string>
+    <string name="floating_ball">floating_ball</string>
+    <string name="icon">Icon</string>
+    <string name="gesture_tip">请在下面屏幕上绘制手势</string>
+    <string name="gesture_enter">手势</string>
+    <string name="gesture_view">手势预览</string>
+
+    /**Slide Menu*/
+    <string name="action_settings">Settings</string>
+    <string name="username">username</string>
+    <string name="personal_center">个人中心</string>
+    <string name="share">分享</string>
+    <string name="set">设置</string>
+    <string name="self_start">开机自启动</string>
+    <string name="gesture_use_history">手势使用记录</string>
+    <string name="gesture_name">手势名：应用名</string>
+    <string name="backups">备份</string>
+    <string name="backups_data">备份数据</string>
+    <string name="recovery_data">恢复数据</string>
+    <string name="syn_data">自动同步数据</string>
+    <string name="about_us">关于</string>
+    <string name="check_update">检查更新</string>
+    <string name="call_us">联系我们</string>
+    <string name="update_stage">已是最新版本</string>
+    <string name="app_package_name">应用名</string>
+</resources>

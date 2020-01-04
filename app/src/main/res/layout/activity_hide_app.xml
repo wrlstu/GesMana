@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:oops="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:transitionName="hideEnter">
+
+    <com.sixosix.gesmana.FloatingItem
+        android:id="@+id/hide_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="10dp"
+        oops:leftText="@string/floating_switch"
+        oops:rightStyle="iconSwitch" />
+
+    <LinearLayout
+        android:id="@+id/hide_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.sixosix.gesmana.FloatingItem
+            android:id="@+id/hide_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            oops:leftText="@string/manager_apps"
+            oops:rightText="@string/manager_apps_hint" />
+
+        <com.sixosix.gesmana.FloatingItem
+            android:id="@+id/hide_add_gesture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            oops:leftText="@string/hide_app_gesture"
+            oops:rightText="@string/app_gesture_hint" />
+
+        <com.sixosix.gesmana.FloatingItem
+            android:id="@+id/hide_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            oops:leftText="@string/define_password"
+            oops:rightText="@string/define_password_hint" />
+    </LinearLayout>
+
+</LinearLayout>
